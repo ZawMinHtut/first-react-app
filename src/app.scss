@@ -1,0 +1,47 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.header {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.menu {
+    background: purple;
+    margin-bottom: 20px;
+
+    .bg-light {
+        background: transparent !important;
+    }
+
+    .navbar-toggler {
+        background: #F2F2F2B5;
+    }
+
+    li {
+        padding-top: 0;
+        padding-bottom: 0;
+
+        a {
+            color: #FFF;
+        }
+        a:hover {
+            color: #e2e2e2;
+            text-decoration: none;
+        }
+    }
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 50px 0;
+    background: #333;
+    color: #fff;
+
+    p {
+        margin-bottom: 0;
+    }
+}
